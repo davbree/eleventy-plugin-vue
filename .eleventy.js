@@ -58,9 +58,9 @@ Built ${count} component${count !== 1 ? "s" : ""} (eleventy-plugin-vue v${pkg.ve
         eleventyVue.resetFor(localVuePath);
       }
     } else {
-      if(changedFiles && changedFiles.length > 0) {
+      //if(changedFiles && changedFiles.length > 0) {
         skipVueBuild = true;
-      }
+      //}
       // TODO reset all if incremental not enabled
       // cssManager.resetComponentCode();
       // eleventyVue.reset();
